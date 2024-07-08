@@ -1,0 +1,81 @@
+
+
+
+.hSec {
+    display: flex;
+    align-items: center;
+}
+
+
+.bgPic {
+    background-image: url('wwroot/images/sushi3.jpg');
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.menue {
+    background-color: rgb(14, 13, 13);
+    text-align: center;
+    align-items: center;
+    color: snow;
+}
+.sushi {
+    display: flex;
+
+}
+.left {
+    position: relative;
+    margin-top: -15%;
+    width: 50%;
+    height: 100%;
+}
+.menue h2{
+    padding: 7% 0;
+    font-size: -webkit-xxx-large;
+    font-weight: 100;
+}
+.menuText {
+    width: 100%;
+}
+.menuText h2{
+    padding: 20% 5% 0 5%;
+    font-family: 'Dancing Script', sans-serif;
+    font-weight: 500;
+    font-size: xx-large;
+    
+}
+.menuText p{
+    padding: 5% 5%;
+    font-family: 'Dancing Script', sans-serif;
+    font-weight: 100;
+    font-size: large;
+}
+.menuText button {
+    cursor: pointer;
+    color: snow;
+    background-color: rgb(36, 36, 36);
+    width: 15%;
+    font-size: larger;
+    font-weight: 100;
+    padding: 12px 10px;
+    border-radius: 25px;
+}
+
+
+.right {
+    position: relative;
+    top: 10%;
+    width: 50%;
+    height: 100vh;
+}
+.right video {
+    z-index: 1;
+    height: 100%;
+}
